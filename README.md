@@ -8,3 +8,4 @@
 3. how to run it:
    1) npm install -> node  build/test1-client.js      node  build/test2-client.js    node  build/test3-client.js
    2) input file: node-data-processing-medium-data.csv, output files: test1_output.json  test2_output.json  test2_output.json, all files are under root dir.
+   3) node-data-processing-medium-data.csv is too large, cannot upload, please place it under the root dir. 
