@@ -19,50 +19,51 @@ Each task has a basic description and an example.
 
 1. The Total Revenue, Cost and Profit for each region and item type, (see example below)
 
-{
-  "Regions": {
-    "Sub-Saharan Africa": {
-      "Total": {
-        "Revenue": 25291.34,
-        "Cost": 17797.74,
-        "Profit": 7493.6
-      },
-      "countries": {
-        "South Africa": {
+    {
+      "Regions": {
+        "Sub-Saharan Africa": {
           "Total": {
-            "Revenue": 592678.59,
-            "Cost": 195756.15,
-            "Profit": 396922.44
+            "Revenue": 25291.34,
+            "Cost": 17797.74,
+            "Profit": 7493.6
           },
-          "ItemTypes": {
-            "Fruits": {
-              "Revenue": 71874.04,
-              "Cost": 53308.51,
-              "Profit": 18565.53
+          "countries": {
+            "South Africa": {
+              "Total": {
+                "Revenue": 592678.59,
+                "Cost": 195756.15,
+                "Profit": 396922.44
+              },
+              "ItemTypes": {
+                "Fruits": {
+                  "Revenue": 71874.04,
+                  "Cost": 53308.51,
+                  "Profit": 18565.53
+                },
+                "Meat": {
+                  "Revenue": 3104860.06,
+                  "Cost": 2683902,
+                  "Profit": 420958.05
+                }
+              },
             },
-            "Meat": {
-              "Revenue": 3104860.06,
-              "Cost": 2683902,
-              "Profit": 420958.05
-            }
           },
-        },
-      },
-     },
-  },
-  "ItemTypes": {
-         "Fruits": {
-           "Revenue": 23612.63,
-           "Cost": 17513.33,
-           "Profit": 6099.29
          },
-         "Clothes": {
-           "Revenue": 233215.42,
-           "Cost": 76486.46,
-           "Profit": 156728.95
-         }
+      },
+      "ItemTypes": {
+             "Fruits": {
+               "Revenue": 23612.63,
+               "Cost": 17513.33,
+               "Profit": 6099.29
+             },
+             "Clothes": {
+               "Revenue": 233215.42,
+               "Cost": 76486.46,
+               "Profit": 156728.95
+          }
+      }
     }
-  }       
+             
 2. Number of each Priority Orders for
 
     {
@@ -90,34 +91,34 @@ Each task has a basic description and an example.
 3. Average Time to ship (in days), and Number of Orders For Each Month (grouped by year, like
 #2), and by each Country (grouped by region), with totals for each level, like #1
 
-{
-  "2010": {
-    "1": {
-      "TotalDaysToShip": 415966,
-      "AvgDaysToShip": 25,
-      "NumberOfOrders": 16676,
-      "Regions": {
-        "Sub-Saharan Africa": {
-          "TotalDaysToShip": 105874,
+    {
+      "2010": {
+        "1": {
+          "TotalDaysToShip": 415966,
           "AvgDaysToShip": 25,
-          "NumberOfOrders": 4247,
-          "Countries": {
-            "Madagascar": {
-              "TotalDaysToShip": 2511,
-              "AvgDaysToShip": 28,
-              "NumberOfOrders": 91
-            },
-            "Zimbabwe": {
-              "TotalDaysToShip": 1813,
-              "AvgDaysToShip": 20,
-              "NumberOfOrders": 91
+          "NumberOfOrders": 16676,
+          "Regions": {
+            "Sub-Saharan Africa": {
+              "TotalDaysToShip": 105874,
+              "AvgDaysToShip": 25,
+              "NumberOfOrders": 4247,
+              "Countries": {
+                "Madagascar": {
+                  "TotalDaysToShip": 2511,
+                  "AvgDaysToShip": 28,
+                  "NumberOfOrders": 91
+                },
+                "Zimbabwe": {
+                  "TotalDaysToShip": 1813,
+                  "AvgDaysToShip": 20,
+                  "NumberOfOrders": 91
+                }
+              }  
             }
-          }  
+          }
         }
       }
-     }
-    }
-   } 
+    } 
    
     
 solutions:
