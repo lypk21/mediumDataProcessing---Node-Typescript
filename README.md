@@ -62,7 +62,8 @@ Each task has a basic description and an example.
            "Profit": 156728.95
          }
     }
-  }       
+  } 
+        
 2. Number of each Priority Orders for
 
     {
@@ -86,9 +87,10 @@ Each task has a basic description and an example.
           "L": 4162
         }
       }
-    }    
-3. Average Time to ship (in days), and Number of Orders For Each Month (grouped by year, like
-#2), and by each Country (grouped by region), with totals for each level, like #1
+    } 
+       
+3. Average Time to ship (in days), and Number of Orders For Each Month (grouped by year, like #2), and by each Country (grouped by region), with totals for each level, like #1
+
 
 {
   "2010": {
@@ -119,6 +121,7 @@ Each task has a basic description and an example.
     }
    } 
    
+ 
     
 solutions:
 
