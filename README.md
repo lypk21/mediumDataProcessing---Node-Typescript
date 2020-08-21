@@ -3,16 +3,20 @@ Question:
 You will be provided with a medium sized CSV file (1.5 million lines,187M), containing Details about orders.
 You can assume the CSV contains clean data that makes sense.
 Requirements
-● Written as a Node CLI application
-○ File name can be hard-coded no need for CLI Input
-● Generate 1 JSON file per task
-● Speed is Important
+
+1) Written as a Node CLI application
+2) File name can be hard-coded no need for CLI Input
+3) Generate 1 JSON file per task
+4) Speed is Important
+
 The CSV File: https://drive.google.com/file/d/1NSaNfpVFXzfl-VESjpkBeyH2FfM7OMRv/view?usp=sharing
 The code needs to be delivered as a GitHub Repository
 We need the following data outputted, All the data needs to be in a JSON format. You are allowed to add
 more data to the output, If it is helpful to processing and getting the desired data.
 Tasks
+
 Each task has a basic description and an example.
+
 1. The Total Revenue, Cost and Profit for each region and item type, (see example below)
 
 {
