@@ -19,7 +19,7 @@ Each task has a basic description and an example.
 
 1. The Total Revenue, Cost and Profit for each region and item type, (see example below)
 
-    {
+     {
       "Regions": {
         "Sub-Saharan Africa": {
           "Total": {
@@ -60,13 +60,13 @@ Each task has a basic description and an example.
                "Revenue": 233215.42,
                "Cost": 76486.46,
                "Profit": 156728.95
-          }
+           }
+        }
       }
-    }
              
 2. Number of each Priority Orders for
 
-    {
+    { 
       "2010": {
         "1": {
           "C": 4271,
