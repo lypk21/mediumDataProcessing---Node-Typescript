@@ -14,6 +14,7 @@ more data to the output, If it is helpful to processing and getting the desired 
 Tasks
 Each task has a basic description and an example.
 1. The Total Revenue, Cost and Profit for each region and item type, (see example below)
+
 {
   "Regions": {
     "Sub-Saharan Africa": {
